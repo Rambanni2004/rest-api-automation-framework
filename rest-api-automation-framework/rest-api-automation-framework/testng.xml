@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="REST API Automation Suite">
+    <test name="JSONPlaceholder API Tests">
+        <classes>
+            <class name="com.api.tests.PostsApiTest"/>
+            <class name="com.api.tests.UsersApiTest"/>
+        </classes>
+    </test>
+</suite>
